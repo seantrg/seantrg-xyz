@@ -5,7 +5,7 @@ import NowPlaying from './components/NowPlaying'; // Adjust if path differs
 const SeanTRGPage: React.FC = () => {
   return (
     <div style={{ backgroundColor: '#080808', color: '#FFFFFF', fontFamily: 'Satoshi, sans-serif' }}>
-      {/* Background Image */}
+
       <div
         style={{
           position: 'fixed',
@@ -15,11 +15,11 @@ const SeanTRGPage: React.FC = () => {
         }}
       />
 
-      {/* Main Card */}
+
       <div style={{ padding: '2rem', textAlign: 'center' }}>
         <img
           src="https://r2.guns.lol/f5c5c139-4124-4e96-9116-834f274dda98.png"
-          alt="Avatar"
+          alt="pfp"
           style={{ borderRadius: '50%', width: '120px', height: '120px' }}
         />
         <h1 style={{ fontWeight: 600, fontSize: '39.5px', margin: '1rem 0 0.5rem' }}>SeanTRG</h1>
@@ -27,7 +27,7 @@ const SeanTRGPage: React.FC = () => {
           Hi! My name is Sean and I do stupid tech things sometimes :)
         </h3>
 
-        {/* Social Links */}
+
         <div
           style={{
             marginTop: '1.5rem',
@@ -55,7 +55,7 @@ const SeanTRGPage: React.FC = () => {
         </div>
 
         
-        {/* Now Playing Component */}
+
         <NowPlaying />
       </div>
     </div>
