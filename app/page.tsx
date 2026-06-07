@@ -32,27 +32,27 @@ const SeanTRGPage: React.FC = () => {
           <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/icons/yt.png" alt="YouTube" style={{ width: 48, height: 48 }} />
+            <img src="./icons/yt.png" alt="YouTube" style={{ width: 48, height: 48 }} />
           </a>
           <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/icons/x.png" alt="X" style={{ width: 48, height: 48 }} />
+            <img src="./icons/x.png" alt="X" style={{ width: 48, height: 48 }} />
           </a>
           <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/icons/tw.png" alt="Twitch" style={{ width: 48, height: 48 }} />
+            <img src="./icons/tw.png" alt="Twitch" style={{ width: 48, height: 48 }} />
           </a>
           <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/icons/ste.png" alt="Steam" style={{ width: 48, height: 48 }} />
+            <img src="./icons/ste.png" alt="Steam" style={{ width: 48, height: 48 }} />
           </a>
           <a href="/projects" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="/icons/proj.png" alt="Projects" style={{ width: 48, height: 48, filter: 'hue-rotate(90deg) saturate(0.7)' }} />
+            <img src="./icons/proj.png" alt="Projects" style={{ width: 48, height: 48, filter: 'hue-rotate(90deg) saturate(0.7)' }} />
           </a>
         </div>
 
