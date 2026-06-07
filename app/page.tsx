@@ -37,14 +37,21 @@ const SeanTRGPage: React.FC = () => {
             flexWrap: 'wrap',
           }}
         >
-          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer">YouTube</a>
-          <a href="/discord">Discord</a>
-          <a href="https://bsky.app/profile/seantrg.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky</a>
-          <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer">X</a>
-          <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer">Twitch</a>
-          <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer">Steam</a>
-          <a href="https://roblox.com/users/1095648854/profile" target="_blank" rel="noopener noreferrer">Roblox</a>
-          <a href="/projects">Projects</a>
+          <a href="https://youtube.com/@seantrg6" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/yt.png" alt="YouTube" style={{ width: 42, height: 42 }} />
+          </a>
+          <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/x.png" alt="X" style={{ width: 42, height: 42 }} />
+          </a>
+          <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/tw.png" alt="Twitch" style={{ width: 42, height: 42 }} />
+          </a>
+          <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/ste.png" alt="Steam" style={{ width: 42, height: 42 }} />
+          </a>
+          <a href="/projects">
+            <img src="/icons/proj.png" alt="Projects" style={{ width: 42, height: 42 }} />
+          </a>
         </div>
 
         
