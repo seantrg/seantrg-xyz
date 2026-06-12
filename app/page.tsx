@@ -29,16 +29,8 @@ const SeanTRGPage: React.FC = () => {
           gap: '1.5rem',
           flexWrap: 'wrap',
         }}>
-          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
-             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
-             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="v2.seantrg.xyz/assets/yt.png" alt="YouTube" style={{ width: 48, height: 48 }} />
-          </a>
-          <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
-             onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
-             onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-            <img src="v2.seantrg.xyz/assets/x.png" alt="X" style={{ width: 48, height: 48 }} />
-          </a>
+          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }} </a>
+          <a href="https://x.com/SeanTRG" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }} </a>
           <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer" style={{ transition: 'transform 0.2s' }}
              onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.15)'}
              onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
