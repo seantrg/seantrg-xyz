@@ -4,7 +4,7 @@ import NowPlaying from './components/NowPlaying';
 
 const SeanTRGPage: React.FC = () => {
   return (
-    <div style={{ minHeight: '100vh', color: '#FFFFFF', fontFamily: 'Satoshi, sans-serif' }}>
+    <div style={{ minHeight: '100vh', color: '#000000', fontFamily: 'Satoshi, sans-serif' }}>
 
       <div className="gradient-background" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }} />
 
