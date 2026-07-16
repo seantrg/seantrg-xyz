@@ -2,14 +2,28 @@ import React from 'react';
 
 const SeanTRGPage: React.FC = () => {
   return (
-    <div style={{ backgroundColor: '#080808', color: '#FFFFFF', fontFamily: 'Satoshi, sans-serif' }}>
-      {/* Background Image */}
-      <div style={{
-        position: 'fixed',
-        width: '100%',
-        height: '100%',
-        zIndex: -1
-      }} />
+    <div style={{ minHeight: '100vh', color: '#000000', fontFamily: 'Satoshi, sans-serif' }}>
+
+      <div className="gradient-background" style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }} />
+
+      <style jsx global>{`
+        .gradient-background {
+          background: linear-gradient(306deg, #d5ad27, #2b85cf);
+          background-size: 120% 120%;
+          animation: gradient-animation 2s ease infinite;
+        }
+        @keyframes gradient-animation {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      `}</style>
 
 
       {/* Main Card */}
