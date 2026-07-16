@@ -48,7 +48,7 @@ const SeanTRGPage: React.FC = () => {
           gap: '1.5rem',
           flexWrap: 'wrap',
         }}>
-          <a href="https://youtube.com/@seantrg" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://youtube.com/@seantrg6" target="_blank" rel="noopener noreferrer">YouTube</a>
           <a href="https://x.com/seantrg" target="_blank" rel="noopener noreferrer">X</a>
           <a href="https://twitch.tv/seantrglive" target="_blank" rel="noopener noreferrer">Twitch</a>
           <a href="https://steamcommunity.com/id/seantrg" target="_blank" rel="noopener noreferrer">Steam</a>
